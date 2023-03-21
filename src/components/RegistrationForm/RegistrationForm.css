@@ -1,0 +1,41 @@
+.form {
+  width: 600px;
+
+  background-color: transparent;
+  border: 2px solid black;
+}
+
+.form-content {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-areas:
+    "email-field password-field"
+    "... validation-results"
+    "... submit-button";
+
+  padding: 32px 15px;
+}
+
+.form-content__email-field {
+  grid-area: email-field;
+}
+
+.form-content__password-field {
+  grid-area: password-field;
+}
+
+@media screen and (max-width: 600px) {
+  .form {
+    width: 288px;
+  }
+
+  .form-content {
+    min-width: 288px;
+
+    grid-template-areas:
+      "email-field"
+      "password-field"
+      "validation-results"
+      "submit-button";
+  }
+}

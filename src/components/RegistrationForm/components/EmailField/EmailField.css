@@ -1,0 +1,11 @@
+.email-field-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.email-field {
+  height: 52px;
+  padding: 0 18px;
+  border: 2px solid black;
+}

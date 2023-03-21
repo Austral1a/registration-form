@@ -1,0 +1,16 @@
+button {
+  width: 100%;
+  height: 52px;
+
+  border: 2px solid black;
+  border-radius: 0 !important;
+  background-color: black;
+  color: white;
+
+  letter-spacing: 0;
+  text-align: center;
+
+  grid-area: submit-button;
+
+  margin-top: 15px;
+}
